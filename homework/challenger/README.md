@@ -140,15 +140,13 @@ Including all observations, especially flights with zero incidents, gives a much
 
 The original analysis removes flights with zero O-ring incidents.
 
+
+
 This is the main problem because these flights contain important information.
 
 
 
-I repeated the analysis using all 23 launches.
-
-
-
-The fitted logistic regression gives:
+Using all 23 launches, the fitted logistic regression gives:
 
 
 
@@ -160,7 +158,9 @@ The fitted logistic regression gives:
 
 Therefore, temperature has a significant effect on O-ring malfunction:
 
-\*\*lower temperatures are associated with a higher probability of failure.\*\*
+
+
+\*\*Lower temperatures are associated with a higher probability of failure.\*\*
 
 
 
@@ -184,21 +184,17 @@ Some estimated probabilities of malfunction for one O-ring are:
 
 
 
-At Challenger's planned launch temperature of \*\*31°F\*\*, the model predicts
-
-a very high malfunction probability.
+At Challenger's planned launch temperature of \*\*31°F\*\*, the model predicts a very high malfunction probability.
 
 
 
-However, 31°F is outside the range of the previous launch temperatures,
-
-so this prediction is an extrapolation and has high uncertainty.
+However, 31°F is outside the range of the previous launch temperatures, so this prediction is an extrapolation and has high uncertainty.
 
 
 
-The main mistake in the original analysis was therefore excluding the
+The main mistake in the original analysis was therefore excluding the zero-incident launches.
 
-zero-incident launches. Once all observations are included, the effect
 
-of temperature becomes much clearer.
+
+Once all observations are included, the effect of temperature becomes much clearer.
 

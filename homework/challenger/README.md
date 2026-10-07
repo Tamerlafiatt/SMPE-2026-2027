@@ -52,13 +52,13 @@ The y-axis scale could also be cleaner because the indicator is basically around
 
 ![Binomial logit](images/binomial_logit.png)
 
-This graph is clear and well chosen.
+This graph is not very clear for me.
 
-It shows that the expected number of incidents increases when temperature decreases.
+There are several curves, but it is difficult to distinguish what each curve represents.
 
-The main trend is easy to understand.
+There is no clear legend explaining them, and toward the end the curves become very close and almost merge together.
 
-The meaning of the different curves could be explained more clearly.
+I would use different colors or line styles and add a clear legend so each curve can be identified easily.
 
 ## Conclusion
 
